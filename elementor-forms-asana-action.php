@@ -29,7 +29,7 @@ function add_new_asana_action($form_actions_registrar)
 
     include_once(__DIR__ . '/form-actions/asana.php');
 
-    $form_actions_registrar->register(new \Ping_Action_After_Submit());
+    $form_actions_registrar->register(new \TBW_Asana_Action_After_Submit());
 
 }
 add_action('elementor_pro/forms/actions/register', 'add_new_asana_action');
