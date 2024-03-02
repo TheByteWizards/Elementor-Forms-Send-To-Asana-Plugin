@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
  *
  * @since 1.0.0
  */
-class Ping_Action_After_Submit extends \ElementorPro\Modules\Forms\Classes\Action_Base
+class TBW_Asana_Action_After_Submit extends \ElementorPro\Modules\Forms\Classes\Action_Base
 {
 
     /**
